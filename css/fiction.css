@@ -1,0 +1,26 @@
+body{
+	background-color: #c7eece;
+}
+.text{
+	color: #1010010;
+	text-indent:2em;
+	background-color: #c7eece;
+}
+.content{
+	background-color: #c7eece;
+	width: 70%;
+	height: auto;
+	margin: 70px auto 0;
+	padding: 10px;
+}
+.bg-music{
+	margin: 0 auto;
+	text-align: center;
+}
+#bg-music{
+	opacity: 0.4;
+}
+.title{
+	margin: 0 auto;
+	text-align: center;
+}
