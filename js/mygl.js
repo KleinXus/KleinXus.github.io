@@ -15,3 +15,5 @@ function main() {
   // 用上面指定的颜色清除缓冲区
   gl.clear(gl.COLOR_BUFFER_BIT);
 }
+
+main();
