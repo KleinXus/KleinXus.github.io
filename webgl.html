@@ -6,12 +6,11 @@
 </head>
 <body>
 <div class="outer">
-	<canvas align="center" id="canvas" height="520" width="520"></canvas>
+	<canvas align="center" id="glcanvas" height="520" width="520"></canvas>
 </div>
+<script src="js/mygl.js"></script>
 <script>
-let gl = (document.getElementById('canvas') as HTMLCanvasElement).getContext('webgl') as WebGLRenderingContextBase;
-gl.clearColor(0.0,0.0,0.5,1.0);
-gl.clear(gl.COLOR_UFFER_BIT);
+	main();
 </script>
 </body>
 <html>
